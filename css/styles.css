@@ -10,7 +10,25 @@ body {
     padding: 10px;
 }
 
+.nav-links ul {
+    margin-top: 25px;
+    align-items: right;
+}
+
 .nav-links li {
     display: inline-block;
     list-style: none;
+    margin-right: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    transition: 0.2s ease-in-out;
+    color: rgb(247, 226, 226);
+    text-decoration: none;
 }
