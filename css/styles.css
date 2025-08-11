@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+}
+
+.nav-links li {
+    display: inline-block;
+    list-style: none;
+}
