@@ -10,9 +10,12 @@ body {
     padding: 10px;
 }
 
+.nav-links {
+    margin-left: auto;
+}
+
 .nav-links ul {
-    margin-top: 25px;
-    align-items: right;
+    margin-top: 30px;
 }
 
 .nav-links li {
@@ -31,4 +34,35 @@ body {
     transition: 0.2s ease-in-out;
     color: rgb(247, 226, 226);
     text-decoration: none;
+}
+
+.recipes-container {
+    display: flex;
+    padding: 15 px
+}
+
+.recipes-container .recipe-thumbnail {
+    padding: 10px;
+    display: inline-block;
+}
+
+.recipe-thumbnail a {
+    text-decoration: none;
+}
+
+.recipe-thumbnail h3 {
+    color: black;
+    font-size: 24px;
+}
+
+.recipe-thumbnail img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.recipe-thumbnail:hover {
+    background-color: rgb(239, 239, 239);
+    transition: ease-in-out 0.3s;
+    border-radius: 15px;
 }
