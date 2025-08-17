@@ -10,6 +10,11 @@ body {
     padding: 10px;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-links {
     margin-left: auto;
 }
